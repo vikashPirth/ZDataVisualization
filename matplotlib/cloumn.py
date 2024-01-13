@@ -20,4 +20,8 @@ bar_coords = range(len(fruit))
 
 plt.bar(bar_coords, num_sold)
 
+plt.ylabel("Number of Fruit (millions")
+plt.xticks(bar_coords, fruit)
+plt.title("Number of fruilts solid (2017)")
+
 plt.show()
